@@ -1,0 +1,25 @@
+# Basic Office LAN Setup (Beginner Network Technician Project)
+
+📌 Project Overview
+This project demonstrates a basic office Local Area Network (LAN) using Cisco Packet Tracer.  
+It includes a router, switch, and multiple PCs configured with static IP addresses and a default gateway.
+
+🧱 Topology
+PCs → Switch → Router
+
+🌐 IP Addressing
+
+| Device | IP Address |
+|--------|------------|
+| Router | 192.168.10.1 |
+| PC1    | 192.168.10.10 |
+| PC2    | 192.168.10.11 |
+
+Subnet Mask: 255.255.255.0  
+Default Gateway: 192.168.10.1
+
+🛠️ Configuration
+The router interface is configured manually using Cisco IOS CLI.
+
+🧪 Testing
+Connectivity tested using ICMP ping between PCs and the router.
