@@ -1,0 +1,18 @@
+Basic Office LAN - Router Configuration
+Device: Cisco Router
+Project: basic office lan
+Author: Obakeng
+Date: 2026-02-17
+
+enable
+configure terminal
+
+Configure LAN interface
+interface gigabitEthernet0/0
+ description Office LAN Gateway
+ IP address 192.168.10.1 255.255.255.0
+ no shutdown
+ exit
+
+Save configuration
+end
